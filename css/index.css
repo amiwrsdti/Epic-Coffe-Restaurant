@@ -1,0 +1,82 @@
+@import url(./defaults.css);
+@import url(./variabels.css);
+@import url(./font.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./mobile-menu.css);
+
+/*______________________________________________________________________________________________________________________________________________________________*/
+
+.main {
+    background-image: url(../images/photo_2025-08-02_15-11-09.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;  /* افقی وسط */
+    align-items: center;      /* عمودی وسط */
+    text-align: center;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column; /* بچه‌ها زیر هم */
+    align-items: center;     /* افقی وسط */
+    gap: 1.5rem;             /* فاصله بین المان‌ها */
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column; /* زیر هم */
+    align-items: center;    /* وسط چین */
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+    color: var(--texts);
+    margin-bottom: 2rem;
+}
+
+.title-top {
+    font-size: 5rem; /* کوچیک‌تر برای خط اول */
+    letter-spacing: 1px;
+}
+
+.title-bottom {
+    font-size: 11rem;   /* بزرگ‌تر برای اپیک */
+    margin-top: 0.5rem;
+    color: #F7F4F2;
+}
+
+.section-main_text {
+    color: var(--texts);
+}
+.section-tags {
+
+}
+.main-tag {
+    color: var(--texts);
+    border: 3px solid var(--orange);
+    padding: 1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.section-main_link {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    gap: 0.5rem;
+    background-color: var(--orange);
+    color: var(--dark);
+    padding: 1rem 12rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+/* _______________________________________________________________________________________________________________________________________________________________ */

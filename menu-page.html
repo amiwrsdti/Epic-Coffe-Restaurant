@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Coffe Restaurant</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="vendor/FontAwesome5/all.min.css">
+    <link rel="stylesheet" href="vendor/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/menu-page.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="container">
+             <div class="row">
+                <div class="col-12">
+                    <div class="header-site">
+                        <div class="header-site_right">
+                            <ul class="header-site_menu">
+                                <li class="header-site_menu_item"><a class="header-site_menu_link" href="index.html">خانه</a></li>
+                                <li class="header-site_menu_item dropdown"><a href="#" class="header-site_menu_link">رزرو</a></li>
+                                <li class="header-site_menu_item"><a class="header-site_menu_link" href="#">درباره ما</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-site_left">
+                            <img class="header-site_icon" src="./images/Logo.png" alt="site logo">
+                        </div>
+                    </div>
+                    <div class="mobile-menu-toggle">
+                      <i class="fas fa-bars open-icon"></i>
+                      <i class="fas fa-times close-icon"></i>
+                    </div>
+
+                    <nav class="mobile-nav">
+                      <a href="#">خانه</a>
+                      <a href="menu-page.html">منو</a>
+                      <a href="#">درباره ما</a>
+                    </nav>
+
+                </div>
+             </div>
+        </div>
+    </header>
+
+    <main class="menu-main">
+      <div class="container">
+
+         <!-- تب هدر -->
+        <div class="tab-header-wrapper">
+          <div class="tab-header">
+            <button class="tab-btn active" data-tab="cafe">کافه</button>
+            <button class="tab-btn" data-tab="restaurant">رستوران</button>
+            <button class="tab-btn" data-tab="hookah">سفره‌خونه</button>
+          </div>
+           
+           <div class="search-box">
+             <input type="text" id="productSearch" placeholder="جستجوی محصول...">
+             <i class="fas fa-search search-box_icon"></i>
+           </div>
+         </div>
+        <!-- تب هدر -->
+       
+         <!-- محتوای تب کافه -->
+         <div class="tab-content active" id="cafe">
+           <!-- کتگوری بار -->
+           <div class="category-bar-wrapper">
+             <button class="scroll-btn left"><i class="fas fa-chevron-right"></i></button>
+             <div class="category-bar">
+               <a class="category-bar_item" href="#hot-drinks">
+                <img class="category-bar_item-img" src="./images/category-img/icon-beverage.png" alt="">
+                نوشیدنی داغ
+               </a>
+               <a class="category-bar_item" href="#desserts">
+                <img class="category-bar_item-img" src="./images/category-img/icon-burger.png" alt="">
+                دسر</a>
+               <a class="category-bar_item" href="#cakes">
+                <img class="category-bar_item-img" src="./images/category-img/icon-pizza.png" alt="">
+ 
+                کیک</a>
+               <a class="category-bar_item" href="#icecream">
+                <img class="category-bar_item-img" src="./images/category-img/icon-beverage.png" alt="">
+
+                بستنی</a>
+               <a class="category-bar_item" href="#juice">
+                <img class="category-bar_item-img" src="./images/category-img/icon-beverage.png" alt="">
+
+                آبمیوه</a>
+               <a class="category-bar_item" href="#milkshake">
+                <img class="category-bar_item-img" src="./images/category-img/icon-beverage.png" alt="">
+
+                میلک‌شیک</a>
+             </div>
+             <button class="scroll-btn right"><i class="fas fa-chevron-left"></i></button>
+           </div>
+         
+           <!-- سکشن ۱ -->
+           <section id="hot-drinks" class="menu-section">
+             <h2>نوشیدنی داغ</h2>
+             <div class="product-grid">
+               <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+               <div class="product-card">
+                 <img src="images/category-img/icon-burger.png" alt="کاپوچینو">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+               <div class="product-card">
+                 <img src="images/category-img/icon-pizza.png" alt="موکا">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+               <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="اسپرسو">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+               <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="اسپرسو">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+               <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="اسپرسو">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+               <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="اسپرسو">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+               </div>
+             </div>
+           </section>
+         
+           <!-- سکشن ۲ -->
+           <section id="desserts" class="menu-section">
+             <h2>دسر</h2>
+             <div class="product-grid">
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+             </div>
+           </section>
+         
+           <!-- سکشن ۳ -->
+           <section id="cakes" class="menu-section">
+             <h2>کیک</h2>
+             <div class="product-grid">
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+             </div>
+           </section>
+
+           <!-- سکشن 4 -->
+           <section id="icecream" class="menu-section">
+             <h2>بستنی</h2>
+             <div class="product-grid">
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+                <div class="product-card">
+                 <img src="images/category-img/icon-beverage.png" alt="لاته">
+                    <span class="product-card_info">
+                      <h3>لاته</h3>
+                      <p>45,000 تومان</p>
+                    </span>
+                </div>
+             </div>
+           </section>
+         
+         </div>
+       
+         <!-- تب‌های دیگه مثل رستوران و سفره‌خونه رو هم می‌تونی کپی کنی -->
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+          <div class="footer-top">
+            <h3>کافه رستوران اپیک</h3>
+            <p>تجربه‌ای متفاوت از طعم، فضا و آرامش در خارج شهر</p>
+          </div>
+
+          <div class="footer-middle">
+            <ul class="footer-links">
+              <li><a href="index.html">خانه</a></li>
+              <li><a href="#">رزرو</a></li>
+              <li><a href="#">درباره ما</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-bottom">
+            <p>© 2025 Cafe Restaurant Epic - تمام حقوق محفوظ است.</p>
+            <p>Made By <a href="#">@Amiwrsdti</a> </p>
+          </div>
+        </div>
+    </footer>
+
+
+    <script src="vendor/FontAwesome5/all.min.js"></script>
+    <script src="./js/menu-page.js"></script>
+</body>
+</html>

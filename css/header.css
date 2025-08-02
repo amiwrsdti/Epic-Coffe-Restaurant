@@ -1,0 +1,105 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header.sticky {
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.header-site_menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 0;
+}
+.header-site_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-site_icon {
+    width: 6rem;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.5));
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.header-site_menu_item {
+    position: relative;
+    z-index: 100;
+}
+
+.header-site_menu_link {
+    text-decoration: none;
+    color: var(--texts);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: color 0.3s ease;
+}
+
+.dropdown-arrow {
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown_menu {
+    position: absolute;
+    top: 2rem;
+    left: -10rem;
+    background: #555;
+    color: #b09f8e;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+    min-width: 150px;
+
+    transition: all 0.3s ease;
+    z-index: 50000;
+    opacity: 0;
+    visibility: hidden;
+        transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.dropdown:hover .dropdown_menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
+}
+
+.dropdown-item {
+    padding: 8px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}

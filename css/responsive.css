@@ -1,0 +1,267 @@
+/* ----------- سایز بزرگ ----------- */
+@media (max-width: 1400px) {
+  .title-top {
+    font-size: 5rem;
+  }
+  .title-bottom {
+    font-size: 11rem;
+  }
+  .section-main_text {
+    font-size: 1.4rem;
+  }
+  .section-tags {
+    margin-top: 2rem;
+  }
+  .main-tag {
+    font-size: 1.5rem;
+  }
+  .section-main_link {
+    padding: 1rem 11.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .title-top {
+    font-size: 5rem;
+  }
+  .title-bottom {
+    font-size: 11rem;
+  }
+  .section-main_text {
+    font-size: 1.4rem;
+  }
+  .section-tags {
+    margin-top: 2rem;
+  }
+  .main-tag {
+    font-size: 1.5rem;
+  }
+  .section-main_link {
+    padding: 1rem 11.5rem;
+    font-size: 1.5rem;
+  }
+
+}
+
+/* ----------- لپ‌تاپ ----------- */
+@media (max-width: 992px) {
+  .title-top {
+    font-size: 4rem;
+  }
+  .title-bottom {
+    font-size: 9rem;
+  }
+  .section-main_text {
+    font-size: 1.4rem;
+  }
+  .section-tags {
+    margin-top: 2rem;
+  }
+  .main-tag {
+    font-size: 1.5rem;
+  }
+  .section-main_link {
+    padding: 1rem 11.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* ----------- تبلت ----------- */
+@media (max-width: 768px) {
+  .title-top {
+    font-size: 3rem;
+  }
+  .title-bottom {
+    font-size: 7rem;
+  }
+  .section-main_text {
+    font-size: 1.4rem;
+  }
+  .section-tags {
+    margin-top: 2rem;
+  }
+  .main-tag {
+    font-size: 1.5rem;
+  }
+  .section-main_link {
+    padding: 1rem 11.5rem;
+    font-size: 1.5rem;
+  }
+
+
+
+  /* _______________________________________________________ HEADER ___________________________________________________________________________ */
+  .header-site {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .header-site_menu {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-links {
+    flex-direction: column !important;
+    gap: 1rem;
+    padding: 0;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  body {
+    font-size: 1.4rem !important;
+    line-height: 1.5;
+  }
+
+  section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  a.header-site_menu_link {
+    font-size: 1.6rem;
+  }
+
+  .header-site_icon {
+    width: 4rem;
+  }
+
+  /* منو موبایلی */
+  .mobile-menu-toggle {
+    display: block !important;
+    z-index: 9999;
+  }
+
+  .header-site_menu {
+    display: none;
+  }
+
+  .mobile-menu.open .header-site_menu {
+    display: flex !important;
+    flex-direction: column;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 9998;
+  }
+  /* _______________________________________________________ HEADER FOOTER ___________________________________________________________________________ */
+
+
+
+  /* _______________________________________________________ Meno ____________________________________________________________________________________ */
+    .tab-btn {
+      font-size: 1.5rem;
+    }
+    .category-bar_item {
+    gap: 1rem;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    }
+    .search-box input {
+    padding: 0.8rem 2.5rem;
+    }
+
+    .product-card:hover {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    }
+
+  /* _______________________________________________________ Meno ____________________________________________________________________________________ */
+}
+
+/* ----------- موبایل کوچک ----------- */
+@media (max-width: 576px) {
+  .menu-main {
+    margin: 0 3rem 0 3rem;
+  }
+  .tab-header-wrapper {
+    padding: 0.5rem 0 0 0;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .tab-btn {
+    font-size: 1.5rem;
+  }
+  .category-bar_item {
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .category-bar_item-img {
+    width: 5rem;
+  }
+  .search-box input {
+    padding: 1rem 1rem 1rem 6rem;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .title-top {
+    font-size: 3rem;
+  }
+  .title-bottom {
+    font-size: 7rem;
+  }
+  .section-main_text {
+    font-size: 1.2rem;
+  }
+  .section-tags {
+    margin-top: 2rem;
+  }
+  .main-tag {
+    font-size: 1.2rem;
+  }
+  .section-main_link {
+    padding: 1rem 9.2rem;
+    font-size: 1.5rem;
+  }
+    .menu-main {
+    margin: 0 2rem 0 2rem;
+  }
+
+  /* _______________________________________________________ HEADER ___________________________________________________________________________ */
+  .header-site_icon {
+    width: 3.2rem;
+  }
+
+  .dropdown_menu {
+    left: 0 !important;
+    min-width: 100%;
+  }
+  /* _______________________________________________________ HEADER ___________________________________________________________________________ */
+
+
+  /* _______________________________________________________ Menu ___________________________________________________________________________ */
+  .tab-header-wrapper {
+    padding: 0.5rem 0 0 0;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .tab-btn {
+    font-size: 1.5rem;
+  }
+  .category-bar_item {
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .category-bar_item-img {
+    width: 5rem;
+  }
+  .search-box input {
+    padding: 1rem 1rem 1rem 6rem;
+  }
+  /* _______________________________________________________ Menu ___________________________________________________________________________ */
+}

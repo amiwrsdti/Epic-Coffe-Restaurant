@@ -1,0 +1,58 @@
+:root {
+    --texts : #F7F4F2;
+    --dark: #2B2827;
+    --orange: #f5aa14;
+    --Ash: #BBAC9D;
+    --Greige: #B7AC9B;
+    --Walnut: #6A5D52;
+}
+
+/* Start helper clases */
+
+.title {
+    font-size: 5rem;
+    color: #F7F4F2;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    right: -1rem;
+    top: 0;
+    width: 0.4rem;
+    height: 4.4rem;
+    background-color: #BBAC9D;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    border-radius: 5rem ;
+    -webkit-border-radius: 5rem ;
+    -moz-border-radius: 5rem ;
+    -ms-border-radius: 5rem ;
+    -o-border-radius: 5rem ;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+ /*   max-width: 250px;    */
+    height: 60%;
+    background-color: rgba(144, 120, 89, 0.2);
+}
+
+.section-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+
+/* End helper clases */
